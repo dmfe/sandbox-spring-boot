@@ -1,0 +1,7 @@
+server:
+  http2:
+    enabled: true
+  ssl:
+    key-store: <path-to-key-store-file>/localhost.p12
+    key-store-password: storepwd
+    key-alias: localhost
